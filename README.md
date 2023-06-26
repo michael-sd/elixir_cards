@@ -1,6 +1,13 @@
 # Cards
 
-**TODO: Add description**
+A simple module allowing for the handling of a deck of cards
+
+## Testing
+Tests can be run with the command:
+```
+ mix test
+```
+
 
 ## Installation
 
@@ -15,7 +22,14 @@ def deps do
 end
 ```
 
+## Generating Documentation
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/cards>.
 
+Generating docs locally can be done via the command:
+```
+  mix docs
+  open doc/index.html
+```
